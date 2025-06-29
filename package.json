@@ -1,0 +1,27 @@
+{
+  "name": "typescript-npm-package",
+  "version": "1.0.0",
+  "description": "A TypeScript NPM package template",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "npm",
+    "package"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^24.0.7",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
